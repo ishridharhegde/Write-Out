@@ -2,4 +2,7 @@
 
 {% block content %}
     {% include 'blog/include/blogNav.html' %}
+    <h2> {{ post.title }} </h2>
+    <h5> posted on {{ post.date }} </h5>
+    {{ post.body|safe|linebreaks }}
 {% endblock %}

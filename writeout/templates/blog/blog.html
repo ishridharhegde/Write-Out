@@ -1,0 +1,9 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+    {% include 'blog/include/blogNav.html' %}
+
+    {% for post in object_list %}
+        <h3> {{ post.date|date:"d-m-Y" }} <a href="../blog/{{ post.id }}"> {{ post.title }} </a> </h3>
+    {% endfor %}
+{% endblock %}
