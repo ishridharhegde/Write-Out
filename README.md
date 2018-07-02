@@ -1,4 +1,4 @@
-# Simple-Blog
+# Write-Out
 This is a simple blog  web app using Django.
 (Use **python3** in the commands if you are having pyhton3 or use your virtual environment path !)
 
